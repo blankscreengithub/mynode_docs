@@ -27,3 +27,7 @@ From the mobile wallet, click on the settings icon and then click on Lightning S
 </center>
 
 Any new wallets added to Blue Wallet will be tied to your myNode device!
+
+Important notes regarding BlueWallet lightning wallets connected to youre myNode device:
+1. They will not see your lightning sats in your channels.
+2. If you receive sats into your wallet, those sats will be added into your overall lightning sats balance on your node in your channels, but your BlueWallet will only be able to control what it has received.
